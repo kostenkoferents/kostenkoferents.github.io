@@ -8,7 +8,7 @@ body {
 .hero {
   position: relative;
   height: 100vh;
-  background: url('https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1950&q=80') center/cover no-repeat;
+  background: url('hluboka-nad-vltavou_original.jpg') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
