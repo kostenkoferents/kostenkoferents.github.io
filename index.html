@@ -2,16 +2,68 @@
 <html lang="uk">
 <head>
   <meta charset="UTF-8">
-  <title>Наше весілля</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Весілля Павло & Наталія</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>Павло & Наталія</h1>
-  <p>Ми одружуємось!</p>
-  <p>Дата: 20 червня 2026</p>
-  <p>Місце: Замок Глубока</p>
+  <!-- Головний екран -->
+  <section class="hero">
+    <div class="overlay">
+      <h1>Павло & Наталія</h1>
+      <p>20 червня 2026, Замок Глубока</p>
+      <div id="countdown">
+        <span id="days"></span> днів 
+        <span id="hours"></span> годин 
+        <span id="minutes"></span> хвилин 
+        <span id="seconds"></span> секунд
+      </div>
+    </div>
+  </section>
 
+  <!-- Інформація для гостей -->
+  <section class="info">
+    <h2>Інформація для гостей</h2>
+
+    <div class="info-block">
+      <h3>📍 Місце</h3>
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2539.123456!2d30.5234!3d50.4501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z0J3QsNC90YHQutC-0YHRgtC40LrQsCwg0JDQutC-0LvQuNC70YzRjA!5e0!3m2!1suk!2sua!4v1699999999999!5m2!1suk!2sua" 
+        width="100%" 
+        height="300" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy">
+      </iframe>
+    </div>
+
+    <div class="info-block">
+      <h3>🕒 Розклад дня</h3>
+      <ul>
+        <li>15:00 – Церемонія</li>
+        <li>16:00 – Фотосесія</li>
+        <li>18:00 – Банкет</li>
+      </ul>
+    </div>
+
+    <div class="info-block">
+      <h3>👗 Дрес-код</h3>
+      <p>Світлі та веселі кольори</p>
+    </div>
+
+    <div class="info-block">
+      <h3>🎁 Подарунки / побажання</h3>
+      <p>Ваші побажання та подарунки дуже важливі для нас!</p>
+    </div>
+
+    <div class="info-block">
+      <h3>☎ Контакти</h3>
+      <p>Телефон: +380 00 000 0000</p>
+      <p>Email: wedding@example.com</p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
 </body>
 </html>
