@@ -8,7 +8,11 @@ body {
 .hero {
   position: relative;
   height: 100vh;
-  background: url('castlenew.jpg') center/cover no-repeat;
+  background-image: url('castlenew.jpg');
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+
   display: flex;
   align-items: center;
   justify-content: center;
