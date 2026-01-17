@@ -37,8 +37,10 @@ body {
 }
 
 #countdown {
-  font-size: 24px;
-  margin-top: 15px;
+  font-family: 'Great Vibes', cursive; /* той самий рукописний шрифт */
+  font-size: 32px;                     /* можна підкоригувати */
+  margin-top: 15px;                     /* відстань від дати/місця */
+  color: #333;                          /* колір тексту */
 }
 
 .info {
