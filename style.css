@@ -28,7 +28,7 @@ body {
 
 .hero p {
   font-family: 'Great Vibes', cursive; /* якщо хочеш той самий шрифт, що й у h1 */
-  font-size: 32px;                     /* можна регулювати розмір */
+  font-size: 36px;                     /* можна регулювати розмір */
 }
 
 .hero p .venue {
@@ -38,7 +38,7 @@ body {
 
 #countdown {
   font-family: 'Great Vibes', cursive; /* той самий рукописний шрифт */
-  font-size: 32px;                     /* можна підкоригувати */
+  font-size: 26px;                     /* можна підкоригувати */
   margin-top: 15px;                     /* відстань від дати/місця */
   color: #333;                          /* колір тексту */
 }
