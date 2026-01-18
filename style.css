@@ -102,8 +102,8 @@ body {
   font-family: 'Times New Roman', serif; /* гарний рукописний шрифт */
   font-size: 16px;              /* розмір тексту */
   color: #000;                  /* трохи темніший ніж body */
-  text-align: center;
-  line-height: 1.4;             /* міжрядковий інтервал */
+  text-align: left;
+  line-height: 1.6;             /* міжрядковий інтервал */
 }
 
 /* ===== ПОСИЛАННЯ В MAP-NOTE ===== */
