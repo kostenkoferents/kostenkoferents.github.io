@@ -145,3 +145,9 @@ body {
 .info-block.contacts p.spacer {
   margin-top: 8px;
 }
+
+/* Прибрати синє підсвічування телефонів на мобільних */
+a[href^="tel"] {
+  color: inherit;
+  text-decoration: none;
+}
