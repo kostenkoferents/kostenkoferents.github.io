@@ -84,8 +84,13 @@ body {
 }
 
 .info-block h3 {
-  margin-bottom: 5px; /* відступ між заголовком і текстом */
   font-size: 20px; /* заголовки трохи більші */
+  margin-bottom: 5px; /* відступ між заголовком і текстом */
+}
+
+.info-block h3 + p {
+  font-size: 18px; /* заголовки трохи більші */
+  margin-top: 0; /* відступ між заголовком і текстом */
 }
 
 .info-block ul {
