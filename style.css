@@ -91,6 +91,7 @@ body {
 .info-block ul {
   margin-top: 0;       /* прибираємо зайвий відступ зверху */
   padding-left: 20px;  /* стандартний відступ для маркерів */
+  list-style: none;    /* прибираємо крапки */
 }
 
 .info-block ul li:last-child {
