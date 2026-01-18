@@ -11,7 +11,8 @@ body {
   background: url('castlenew.jpg') center/cover no-repeat;
   display: flex; 
   align-items: center; 
-  justify-content: center; text-align: center; 
+  justify-content: center; 
+  text-align: center; 
 }
 
 .overlay {
@@ -20,28 +21,51 @@ body {
   border-radius: 10px;
 }
 
-.hero h1 {
-  font-family: 'Great Vibes', cursive;
-  font-size: 64px;
-  margin: 0 0 10px 0;
+
+/* ===== ІМЕНА ===== */
+
+.names {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.05;
+  margin-bottom: 10px;
 }
 
+.names .name {
+  font-family: 'Great Vibes', cursive;
+  font-size: 64px;
+}
+
+.names .amp {
+  font-family: 'Great Vibes', cursive;
+  font-size: 36px;   /* менший & */
+  margin: 4px 0;    /* менший проміжок */
+}
+
+/* ===== ДАТА + МІСЦЕ ===== */
+
 .hero p {
-  font-family: 'Great Vibes', cursive; /* якщо хочеш той самий шрифт, що й у h1 */
-  font-size: 36px;                     /* можна регулювати розмір */
+  font-family: 'Great Vibes', cursive;
+  font-size: 36px;
+  margin: 0;
 }
 
 .hero p .venue {
   display: block;
-  margin-top: 10px; /* відстань між датою і місцем */
+  margin-top: 10px;             /* відстань між датою і місцем */
 }
 
+/* ===== ТАЙМЕР ===== */
+
 #countdown {
-  font-family: 'Great Vibes', cursive; /* той самий рукописний шрифт */
-  font-size: 26px;                     /* можна підкоригувати */
-  margin-top: 15px;                     /* відстань від дати/місця */
-  color: #333;                          /* колір тексту */
+  font-family: 'Great Vibes', cursive;
+  font-size: 26px;
+  margin-top: 15px;             /* відстань від дати/місця */
+  color: #333;
 }
+
+/* ===== ІНФО-БЛОКИ ===== */
 
 .info {
   padding: 40px 20px;
@@ -61,3 +85,4 @@ body {
 .info-block h3 {
   margin-bottom: 10px;
 }
+
