@@ -86,3 +86,8 @@ body {
   margin-bottom: 10px;
 }
 
+.info-block ul li:last-child {
+  margin-top: 20px;   /* відступ перед останнім пунктом */
+  font-style: italic;
+  opacity: 0.8;
+}
