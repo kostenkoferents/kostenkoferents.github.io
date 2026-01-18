@@ -70,7 +70,7 @@ body {
   max-width: 800px;
   margin: 0 auto;
   font-family: 'Times New Roman', serif; /* Шрифт для всього інфо-блоку */
-  font-size: 16px;                       /* розмір основного тексту */
+  font-size: 18px;                       /* розмір основного тексту */
   line-height: 1.6;                      /* міжрядковий інтервал */
 }
 
@@ -101,11 +101,11 @@ body {
 
 /* ===== ТЕКСТ ПІД КАРТОЮ ===== */
 .map-note {
-  margin-top: 12px;             /* відстань від карти */
+  margin-top: 5px;             /* відстань від карти */
   padding-top: 10px;            /* внутрішній відступ зверху */
 
   font-family: 'Times New Roman', serif; /* гарний рукописний шрифт */
-  font-size: 16px;              /* розмір тексту */
+  font-size: 18px;              /* розмір тексту */
   color: #000;                  /* трохи темніший ніж body */
   text-align: left;
   line-height: 1.6;             /* міжрядковий інтервал */
