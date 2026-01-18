@@ -1,3 +1,4 @@
+/* ===== ЗАГАЛЬНІ СТИЛІ ===== */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -5,6 +6,7 @@ body {
   color: #333;
 }
 
+/* ===== ГОЛОВНИЙ ЕКРАН ===== */
 .hero { 
   position: relative; 
   height: 100vh; 
@@ -23,7 +25,6 @@ body {
 
 
 /* ===== ІМЕНА ===== */
-
 .names {
   display: flex;
   flex-direction: column;
@@ -44,7 +45,6 @@ body {
 }
 
 /* ===== ДАТА + МІСЦЕ ===== */
-
 .hero p {
   font-family: 'Great Vibes', cursive;
   font-size: 36px;
@@ -57,7 +57,6 @@ body {
 }
 
 /* ===== ТАЙМЕР ===== */
-
 #countdown {
   font-family: 'Great Vibes', cursive;
   font-size: 26px;
@@ -66,7 +65,6 @@ body {
 }
 
 /* ===== ІНФО-БЛОКИ ===== */
-
 .info {
   padding: 40px 20px;
   max-width: 800px;
@@ -90,4 +88,29 @@ body {
   margin-top: 20px;   /* відступ перед останнім пунктом */
   font-style: italic;
   opacity: 0.8;
+}
+
+/* ===== ТЕКСТ ПІД КАРТОЮ ===== */
+.map-note {
+  margin-top: 12px;             /* відстань від карти */
+  padding-top: 10px;            /* внутрішній відступ зверху */
+  border-top: 1px solid #ccc;   /* тонка лінія */
+
+  font-family: 'Great Vibes', cursive; /* гарний рукописний шрифт */
+  font-size: 22px;              /* розмір тексту */
+  color: #555;                  /* трохи темніший ніж body */
+  text-align: center;
+  line-height: 1.4;             /* міжрядковий інтервал */
+}
+
+/* ===== ПОСИЛАННЯ В MAP-NOTE ===== */
+.map-note a {
+  color: #8b5e3c;               /* гарний коричневий відтінок */
+  text-decoration: none;         /* прибрати підкреслення */
+  border-bottom: 1px dotted #8b5e3c; /* тонка пунктирна лінія */
+  transition: opacity 0.3s;
+}
+
+.map-note a:hover {
+  opacity: 0.7;                 /* ефект при наведенні */
 }
