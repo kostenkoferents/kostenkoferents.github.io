@@ -96,7 +96,7 @@ body {
   padding-top: 10px;            /* внутрішній відступ зверху */
   border-top: 1px solid #ccc;   /* тонка лінія */
 
-  font-family: 'Great Vibes', cursive; /* гарний рукописний шрифт */
+  font-family: 'Great Vibes'; /* гарний рукописний шрифт */
   font-size: 22px;              /* розмір тексту */
   color: #555;                  /* трохи темніший ніж body */
   text-align: center;
