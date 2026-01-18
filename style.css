@@ -69,6 +69,9 @@ body {
   padding: 40px 20px;
   max-width: 800px;
   margin: 0 auto;
+  font-family: 'Times New Roman', serif; /* Шрифт для всього інфо-блоку */
+  font-size: 20px;                       /* розмір основного тексту */
+  line-height: 1.6;                      /* міжрядковий інтервал */
 }
 
 .info h2 {
@@ -82,6 +85,7 @@ body {
 
 .info-block h3 {
   margin-bottom: 10px;
+  font-size: 24px; /* заголовки трохи більші */
 }
 
 .info-block ul li:last-child {
@@ -96,8 +100,8 @@ body {
   padding-top: 10px;            /* внутрішній відступ зверху */
 
   font-family: 'Times New Roman', serif; /* гарний рукописний шрифт */
-  font-size: 22px;              /* розмір тексту */
-  color: #555;                  /* трохи темніший ніж body */
+  font-size: 20px;              /* розмір тексту */
+  color: #000;                  /* трохи темніший ніж body */
   text-align: center;
   line-height: 1.4;             /* міжрядковий інтервал */
 }
