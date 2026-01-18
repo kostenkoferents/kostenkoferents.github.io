@@ -140,3 +140,8 @@ body {
 .info-block {
   text-align: justify;   /* вирівнювання тексту по ширині (do bloku) */
 }
+
+/* Проміжок між Наталія та Павло */
+.info-block.contacts p.spacer {
+  margin-top: 8px;
+}
