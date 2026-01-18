@@ -94,7 +94,6 @@ body {
 .map-note {
   margin-top: 12px;             /* відстань від карти */
   padding-top: 10px;            /* внутрішній відступ зверху */
-  border-top: 1px solid #ccc;   /* тонка лінія */
 
   font-family: 'Great Vibes'; /* гарний рукописний шрифт */
   font-size: 22px;              /* розмір тексту */
