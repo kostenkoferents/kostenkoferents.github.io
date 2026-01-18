@@ -100,7 +100,7 @@ body {
   padding-top: 10px;            /* внутрішній відступ зверху */
 
   font-family: 'Times New Roman', serif; /* гарний рукописний шрифт */
-  font-size: 20px;              /* розмір тексту */
+  font-size: 16px;              /* розмір тексту */
   color: #000;                  /* трохи темніший ніж body */
   text-align: center;
   line-height: 1.4;             /* міжрядковий інтервал */
