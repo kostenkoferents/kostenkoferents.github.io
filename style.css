@@ -94,6 +94,10 @@ body {
   list-style: none;    /* прибираємо крапки */
 }
 
+.info-block ul li {
+  margin-top: 8px;   /* відступ між рядками списку */
+}
+
 .info-block ul li:last-child {
   margin-top: 20px;   /* відступ перед останнім пунктом */
   font-style: italic;
