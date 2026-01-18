@@ -111,14 +111,12 @@ body {
 
 /* ===== ТЕКСТ ПІД КАРТОЮ ===== */
 .map-note {
-  margin-top: 5px;             /* відстань від карти */
-  padding-top: 10px;            /* внутрішній відступ зверху */
-
+  margin-top: 0;             /* відстань від карти */
+  padding-top: 0;            /* внутрішній відступ зверху */
   font-family: 'Times New Roman', serif; /* гарний рукописний шрифт */
-  font-size: 18px;              /* розмір тексту */
-  color: #000;                  /* трохи темніший ніж body */
-  text-align: left;
+  font-size: 18px;              /* розмір тексту */       
   line-height: 1.6;             /* міжрядковий інтервал */
+  color: #333;
 }
 
 /* ===== ПОСИЛАННЯ В MAP-NOTE ===== */
