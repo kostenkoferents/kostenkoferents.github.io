@@ -155,7 +155,7 @@ a[href^="tel"] {
 /* ===== ДРЕС-КОД (КАРТИНКИ) ===== */
 
 .dresscode {
-  text-align: center;
+  text-align: left;
 }
 
 .color-palette.grid-images {
