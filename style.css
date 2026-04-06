@@ -210,3 +210,7 @@ a[href^="tel"] {
 .travel-option p {
   margin: 4px 0;
 }
+
+.tight {
+  margin: 6px 0;
+}
