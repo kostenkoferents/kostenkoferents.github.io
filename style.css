@@ -160,16 +160,15 @@ a[href^="tel"] {
 
 .color-palette.grid-images {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 15px;
   margin-top: 20px;
 }
 
 .color-item {
-  text-align: center;
+  width: 100%;
   padding: 8px;
-  border-radius: 12px;
-  transition: background 0.3s;
+  text-align: center;
 }
 
 .color-item:hover {
@@ -181,7 +180,6 @@ a[href^="tel"] {
   height: 100px;
   object-fit: cover;
   border-radius: 12px;
-  transition: transform 0.3s, box-shadow 0.3s;
   display: block;
 }
 
@@ -193,8 +191,8 @@ a[href^="tel"] {
 .color-item p {
   margin-top: 6px;
   font-size: 15px;
-  letter-spacing: 0.5px;
   text-transform: uppercase;
+  word-break: break-word;
 }
 
 .dresscode-note {
