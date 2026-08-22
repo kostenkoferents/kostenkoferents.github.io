@@ -213,3 +213,35 @@ a[href^="tel"] {
 .tight {
   margin: 6px 0;
 }
+
+.media-links {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+.media-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 190px;
+  padding: 14px 24px;
+
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(110, 90, 70, 0.25);
+  border-radius: 14px;
+
+  color: inherit;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.media-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.10);
+}
